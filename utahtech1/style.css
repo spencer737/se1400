@@ -10,6 +10,7 @@ header {
     background-color: #003058;
     color: #FFFFFF;
     font-family: Georgia, serif;
+    padding: .5rem;
 }
 
 header h1 {
