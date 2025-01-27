@@ -1,11 +1,9 @@
-/* Global Styles */
 body {
     background-color: #FFFFFF;
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
 }
 
-/* Header Styling */
 header {
     background-color: #003058;
     color: #FFFFFF;
@@ -18,39 +16,33 @@ header h1 {
     padding: .5rem;
 }
 
-/* Navigation Styling */
 nav {
     font-weight: bold;
     background-color: #F3F3F3;
     padding: .5rem;
 }
 
-/* Section Headers */
 h2 {
     color: #424242;
     font-family: Georgia, serif;
 }
 
-/* Description Term (dt) */
 dt {
     color: #003058;
     font-weight: bold;
 }
 
-/* Utah Tech Span Class */
 .ut {
     color: #BA1C21;
     font-weight: bold;
 }
 
-/* Footer Styling */
 footer {
     font-size: 0.70rem;
     font-style: italic;
     text-align: center;
 }
 
-/* Wrapper Styling */
 #wrapper {
     width: 80%;
     margin-right: auto;
