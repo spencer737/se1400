@@ -8,7 +8,9 @@ header {
     background-color: #003058;
     color: #ffffff;
     font-family: Georgia, serif;
-    padding: 0;
+    padding: 0; 
+    margin: 0; 
+    height: auto;
 }
 
 header h1 {
