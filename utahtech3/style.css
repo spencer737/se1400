@@ -21,7 +21,7 @@ header h1 {
     background-position: right;
     background-repeat: no-repeat;
     background-origin: content-box;
-    background-size: auto 50px;
+    background-size: contain;
     margin-bottom: 0;
 }
 
