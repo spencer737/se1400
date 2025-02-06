@@ -21,6 +21,7 @@ header h1 {
     background-repeat: no-repeat;
     background-origin: content-box;
     padding-left: 1em;
+    background-size: contain;
     margin-bottom: 0;
 }
 
