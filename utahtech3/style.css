@@ -15,15 +15,14 @@ header {
 }
 
 header h1 {
-    line-height: 140%;
-    background-image: url('utahtechlogo.svg');
-    background-position: right;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    padding-left: 1em;
-    margin-bottom: 0;
-}
-
+        background-image: url('utahtechlogo.svg');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        padding-left: 1em;
+        margin-bottom: 0;
+    }
+    
 nav {
     font-weight: bold;
     background-color: #F3F3F3;
