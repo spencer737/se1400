@@ -14,7 +14,8 @@ header {
     height: auto;
 }
 
-header h1 {
+header h1 { 
+        line-height: 140%;
         background-image: url('utahtechlogo.svg');
         background-position: right;
         background-repeat: no-repeat;
