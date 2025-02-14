@@ -4,7 +4,7 @@
 
 /* Remove default margin from body */
 body {
-    margin: 0;
+    margin: 0px;
     background: linear-gradient(to bottom, #eeeeee, #ffffff);
     background-attachment: fixed;
     color: #666666;
@@ -16,6 +16,13 @@ body {
     display: grid;
     grid-auto-rows: minmax(0px, auto);
     grid-template-columns:minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    background-color: #ffffff;
+     margin-right: auto;
+     margin-left: auto;
+     box-shadow: 0px 3px 3px rgba(66,66,66,0.3);
 }
 
 /* Header styling */
@@ -54,10 +61,15 @@ header a {
 /* Navigation styling */
 /* Navigation bar */
 nav {
-    background-color: #424242;
+    grid-column: 2 / -2;
+    grid-row: 2 / 3;
+    background-color: #FFFFFF;
     position: sticky;
     top: 0;
     width: 100%;
+     font-weight: bold;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    
 }
 
 /* Navigation list */
@@ -88,6 +100,20 @@ nav a:hover {
     background-color: #BA1C21;
 }
 
+h2 {
+    color: #424242;
+    font-family: Georgia, serif;
+}
+
+h3 {
+    color: #003058;
+}
+
+dt {
+    color: #003058;
+    font-weight: bold;
+}
+
 .ut {
     color: #BA1C21;  
     font-weight: bold;  
@@ -107,14 +133,26 @@ nav a:hover {
 
 #homehero {
     background-image: url('homehero.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #studenthero {
     background-image: url('studenthero.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #facultyhero {
     background-image: url('facultyhero.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Main content */
