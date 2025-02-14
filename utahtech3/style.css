@@ -53,31 +53,42 @@ header a {
 }
 
 /* Navigation styling */
+/* Navigation bar */
 nav {
-    grid-column: 2 / -2;
-    grid-row: 2 / 3;
-    font-weight: bold;
-    background-color: #F3F3F3;
-    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    background-color: #424242;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
+/* Navigation list */
 nav ul {
-    list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
     display: flex;
-    gap: 1rem;
+    flex-flow: row nowrap;
+    list-style-type: none;
 }
 
-nav li {
-    display: inline;
+/* Navigation list items */
+nav ul li {
+    width: 100%;
 }
 
+/* Navigation links */
 nav a {
-    text-decoration: none;
-    padding: 0.5rem;
+    color: #FFFFFF;
+    padding: 1rem 0rem;
     display: block;
+    text-align: center;
+    text-decoration: none;
 }
+
+/* Hover effect */
+nav a:hover {
+    background-color: #BA1C21;
+}
+
 
 /* Hero sections */
 #homehero,
