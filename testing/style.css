@@ -168,13 +168,10 @@ footer {
     grid-template-columns: repeat(3, 1fr); /* Three equal columns */
     gap: 20px; /* Space between grid items */
     padding: 20px;
-    align-items: flex-end; /* Aligns content at the bottom */
-    position: absolute; /* Positions it at the bottom */
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
     width: 90%;
     max-width: 1200px;
+    margin: 0 auto;
+    position: relative; /* Keep it relative so it flows naturally */
 }
 .content-grid div {
     display: flex;
