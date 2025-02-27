@@ -158,8 +158,8 @@ footer {
 .container {
     width: 1200px;
     margin: 0 auto;
-    background: #818384;
-    padding: 20px;
+    background: #2fbaea;
+    padding: 20px 0;
 }
 .left-container {
     display: flex;
