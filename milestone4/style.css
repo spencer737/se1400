@@ -83,7 +83,7 @@ nav {
 .logo img {
     height: 80px; /* Adjust size as needed */
     display: block;
-    margin: 0 auto;
+    margin:  0 auto 10px auto;
 }
 
 nav ul {
