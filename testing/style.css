@@ -161,6 +161,30 @@ footer {
     background: #2fbaea;
     padding: 20px 0;
 }
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+    align-items: start; /* Align content at the top */
+}
+.content-grid div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-grid img {
+    width: 100%;
+    max-width: 400px; /* Adjust image size */
+    height: auto;
+}
+
+.content-grid p {
+    text-align: left;
+    max-width: 400px;
+}
+
 .left-container {
     display: flex;
     flex-direction: column;
