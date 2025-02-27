@@ -17,7 +17,7 @@ body {
 #wrapper {
     display: grid;
     grid-auto-rows: minmax(0px, auto);
-    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    grid-template-columns: minmax(0px, 0.5fr) repeat(6, minmax(0, 150px)) minmax(0px, 0.5fr);
     max-width: 90%; /* Adjust percentage as needed */
     margin: 0 auto; /* Centers the content */
 }
@@ -30,6 +30,9 @@ header {
     font-family: Georgia, serif;
     padding: 10px 0;
     min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 /* Header h1 modifications */
