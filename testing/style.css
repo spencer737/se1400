@@ -103,7 +103,7 @@ h2 {
     color: #FFFFFF;
     font-family: Georgia, serif;
     font-weight: bold;
-    font-size: 28px;
+    font-size: larger;
 }
 
 h3 {
@@ -139,6 +139,7 @@ main {
     grid-row: 4 / 5;
     padding: 1rem;
     background: #606162;
+    font-size: large;
 }
 
 /* Style images in the main section */
