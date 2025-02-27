@@ -163,10 +163,10 @@ footer {
 }
 .content-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
     gap: 20px; /* Space between grid items */
     padding: 20px;
-    align-items: start; /* Align content at the top */
+    align-items: flex-end; /* Align content at the top */
 }
 .content-grid div {
     display: flex;
