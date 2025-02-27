@@ -7,7 +7,7 @@ body {
     margin: 0px;
     background: linear-gradient(to bottom, #eeeeee, #ffffff);
     background-attachment: fixed;
-    color: #666666;
+    color: #4b4e4f;
     font-family: Verdana, Arial, sans-serif;
 }
 
@@ -22,7 +22,7 @@ body {
 header {
     grid-column: 2 / -2;
     grid-row: 1 / 2;
-    background-color: #003058;
+    background-color: #4b4e4f;
     color: #ffffff;
     font-family: Georgia, serif;
     padding: 10px 0;
@@ -34,8 +34,8 @@ header h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url('utahtechlogo.svg');
-    background-position: right center;
+    background-image: url('graffitiglow.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-origin: content-box;
     background-size: 80px;
@@ -144,4 +144,10 @@ footer {
     font-style: italic;
     text-align: center;
     padding: 1rem;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background: #444;
+    padding: 20px;
 }
