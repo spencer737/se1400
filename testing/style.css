@@ -8,7 +8,7 @@ body {
     margin: 0px;
     background-attachment: fixed;
     text-decoration-color: #FFFFFF;
-    background-color: #4b4e4f;
+    background-color: #3D3E3F;
     color: #FFFFFF;
     font-family: Verdana, Arial, sans-serif;
 }
@@ -131,7 +131,7 @@ main {
     grid-column: 2 / -2;
     grid-row: 4 / 5;
     padding: 0 2rem;
-    background: #818384;
+    background: #636566;
 }
 
 /* Style images in the main section */
