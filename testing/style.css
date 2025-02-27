@@ -5,7 +5,6 @@
 /* Remove default margin from body */
 body {
     margin: 0px;
-    background: linear-gradient(to bottom, #eeeeee, #ffffff);
     background-attachment: fixed;
     color: #4b4e4f;
     font-family: Verdana, Arial, sans-serif;
