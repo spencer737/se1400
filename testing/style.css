@@ -22,7 +22,7 @@ body {
 header {
     grid-column: 2 / -2;
     grid-row: 1 / 2;
-    background-color: #4b4e4f;
+    background-color: #818384;
     font-family: Georgia, serif;
     padding: 10px 0;
     min-height: 100px;
@@ -90,13 +90,8 @@ nav a {
     text-decoration: none;
 }
 
-/* Hover effect */
-nav a:hover {
-    background-color: #BA1C21;
-}
-
 h2 {
-    color: #424242;
+    color: #FFFFFF;
     font-family: Georgia, serif;
 }
 
@@ -104,10 +99,6 @@ h3 {
     color: #003058;
 }
 
-dt {
-    color: #003058;
-    font-weight: bold;
-}
 #graffitiglow-png {
     width: 203px;
     height: 193px;
