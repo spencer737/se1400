@@ -131,8 +131,8 @@ h3 {
 main {
     grid-column: 2 / -2;
     grid-row: 4 / 5;
-    padding: 0 2rem;
-    background: #636566;
+    padding: 1rem;
+    background: #606162;
 }
 
 /* Style images in the main section */
