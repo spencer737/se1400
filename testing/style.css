@@ -111,7 +111,11 @@ dt {
     height: 235px;
     object-fit: cover; /* Ensures the image fills the area without distortion */
 }
-
+#spraycans-jpg {
+    width: 504px;
+    height: 357px;
+    object-fit: cover; 
+}
 /* Main content */
 main {
     grid-column: 2 / -2;
