@@ -131,7 +131,7 @@ main {
     grid-column: 2 / -2;
     grid-row: 4 / 5;
     padding: 0 2rem;
-    background: #4b4e4f;
+    background: #818384;
 }
 
 /* Style images in the main section */
@@ -152,6 +152,6 @@ footer {
 .container {
     width: 900px;
     margin: 0 auto;
-    background: #4b4e4f;
+    background: #818384;
     padding: 20px;
 }
