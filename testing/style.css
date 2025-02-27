@@ -5,7 +5,7 @@
 
 /* Remove default margin from body */
 body {
-    margin: 0px;
+    margin: 0px 25px;
     background-attachment: fixed;
     text-decoration-color: #FFFFFF;
     background-color: #3D3E3F;
