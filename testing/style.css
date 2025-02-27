@@ -150,6 +150,8 @@ footer {
     padding: 1rem;
 }
 .container {
-    display: flex;
-    justify-content: flex-start;
+    width: 900px;
+    margin: 0 auto;
+    background: #818384;
+    padding: 20px;
 }
