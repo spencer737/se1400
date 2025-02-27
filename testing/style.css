@@ -155,3 +155,13 @@ footer {
     background: #818384;
     padding: 20px;
 }
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns all text to the left */
+}
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns all text to the right */
+}
