@@ -36,6 +36,8 @@ header h1 {
     background-image: url('graffitiglow.png');
     background-position: center;
     background-repeat: no-repeat;
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
     background-origin: content-box;
     background-size: 80px;
     padding-left: 1em;
