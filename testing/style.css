@@ -56,7 +56,7 @@ header a {
 nav {
     grid-column: 2 / -2;
     grid-row: 2 / 3;
-    background-color: #424242;
+    background-color: #2FBAEA;
     position: sticky;
     top: 0;
     width: 100%;
@@ -106,45 +106,10 @@ dt {
     font-weight: bold;
 }
 
-.ut {
-    color: #BA1C21;  
-    font-weight: bold;  
-}
-
-/* Hero sections */
-#homehero,
-#studenthero,
-#facultyhero {
-    grid-column: 2 / -2;
-    grid-row: 3 / 4;
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#homehero {
-    background-image: url('homehero.jpg');
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#studenthero {
-    background-image: url('studenthero.jpg');
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#facultyhero {
-    background-image: url('facultyhero.jpg');
-    height: 300px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+#paint-img {
+    width: 309px;
+    height: 235px;
+    object-fit: cover; /* Ensures the image fills the area without distortion */
 }
 
 /* Main content */
