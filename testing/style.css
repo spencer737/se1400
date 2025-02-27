@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    color: white;
+    color: black;
 }
 
 /* Remove default margin from body */
@@ -100,6 +100,7 @@ nav a {
 h2 {
     color: #FFFFFF;
     font-family: Georgia, serif;
+    font-weight: bold;
 }
 
 h3 {
