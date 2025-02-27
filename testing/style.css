@@ -105,6 +105,12 @@ dt {
     color: #003058;
     font-weight: bold;
 }
+#graffitiglow-png {
+    width: 203px;
+    height: 193px;
+    object-fit: cover; 
+    text-align: center;
+}
 
 #paint-img {
     width: 309px;
