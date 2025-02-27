@@ -26,7 +26,6 @@ body {
 header {
     grid-column: 1 / -1; /* Makes the header span across all columns */
     width: 100vw; /* Ensures full viewport width */
-    grid-row: 1 / 2;
     background: linear-gradient(to right, black, #99acaf, black);
     font-family: Georgia, serif;
     padding: 0px 0;
