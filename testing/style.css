@@ -28,7 +28,7 @@ header {
     grid-row: 1 / 2;
     background: linear-gradient(to right, black, #85959B, black);
     font-family: Georgia, serif;
-    padding: 10px 0;
+    padding: 0px 0;
     min-height: 100px;
 }
 
@@ -120,6 +120,7 @@ h3 {
     width: 309px;
     height: 235px;
     text-align: left;
+    padding-left: 16;
 }
 #spraycans-jpg {
     width: 504px;
@@ -137,7 +138,7 @@ main {
 /* Style images in the main section */
 main img {
     float: right;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 /* Footer */
