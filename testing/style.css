@@ -119,12 +119,12 @@ h3 {
 #paint-img {
     width: 309px;
     height: 235px;
-    object-fit: cover; /* Ensures the image fills the area without distortion */
+    text-align: left;
 }
 #spraycans-jpg {
     width: 504px;
     height: 357px;
-    object-fit: cover; 
+    text-align: right;
 }
 /* Main content */
 main {
