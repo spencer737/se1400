@@ -164,13 +164,13 @@ footer {
     padding: 20px 0;
 }
 .content-grid {
-    display: flex; /* Use flexbox instead of grid */
-    justify-content: space-between; /* Evenly spaces images */
-    align-items: flex-end; /* Aligns everything to the bottom */
-    flex-wrap: nowrap; /* Prevents wrapping */
-    gap: 20px; /* Adds space between items */
-    max-width: 100%; /* Ensures it fits within the page */
-    overflow: hidden; /* Prevents content from spilling */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap; /* Keeps everything in one row */
+    gap: 20px;
+    max-width: 100%; /* Ensures it takes full width */
+    overflow: hidden;
 }
     
 .content-grid div {
