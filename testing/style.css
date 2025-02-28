@@ -157,39 +157,35 @@ footer {
     text-align: center;
     padding: 1rem;
 }
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    background: #2fbaea;
-    padding: 20px 0;
-}
-.content-grid {
+.content-container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: nowrap; /* Keeps everything in one row */
-    gap: 20px;
-    max-width: 100%; /* Ensures it takes full width */
-    overflow: hidden;
-}
-    
-.content-grid div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end; /* Makes sure the items align to the bottom */
+    flex-direction: column; /* Stacks items vertically */
+    gap: 40px; /* Adds space between items */
+    align-items: center; /* Centers content */
+    max-width: 1000px;
+    margin: 0 auto; /* Center the content */
 }
 
-.content-grid img {
-    width: 100%;
-    max-width: 400px; /* Adjust image size */
+.content-item {
+    display: flex;
+    flex-direction: row; /* Image and text side by side */
+    align-items: center;
+    justify-content: center; /* Center content */
+    gap: 20px;
+    flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+    max-width: 100%;
+}
+
+.content-item img {
+    max-width: 400px;
     height: auto;
 }
 
-.content-grid p {
+.content-item p {
+    max-width: 500px;
     text-align: left;
-    max-width: 400px;
 }
+
 
 .left-container {
     display: flex;
