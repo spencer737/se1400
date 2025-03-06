@@ -111,11 +111,25 @@ dt {
     font-weight: bold;  
 }
 
+#bluebar {
+    background-color: #003058;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    height: 10px;
+}
+
+#greybar {
+    background-color: #424242;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    height: 10px;
+}
+
 /* Hero sections */
 #homehero,
 #studenthero,
 #facultyhero {
-    grid-column: 2 / -2;
+    grid-column: 1 / -1;
     grid-row: 3 / 4;
     height: 300px;
     background-size: cover;
