@@ -158,17 +158,18 @@ footer {
     background: #2fbaea;
     padding: 20px 0;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Creates a 2 column grid with equal width columns */
     grid-gap: 10px; /* Adds spacing between grid items */
 }
 .content-grid {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: nowrap; /* Keeps everything in one row */
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
-    max-width: 100%; /* Ensures it takes full width */
+    max-width: 100%;
     overflow: hidden;
+    flex-direction: row-reverse;
+    align-content: flex-end;
+    align-items: flex-end;
 }
     
 .content-grid div {
