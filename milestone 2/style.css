@@ -78,6 +78,9 @@ nav {
     margin: 0 auto;
     background: #444;
     padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates a 2 column grid with equal width columns */
+    grid-gap: 10px; /* Adds spacing between grid items */
 }
 
 .logo img {
