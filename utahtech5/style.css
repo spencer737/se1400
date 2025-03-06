@@ -184,3 +184,54 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+@media only screen and (max-width: 1100px) {
+    #wrapper {
+        grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    nav {
+        grid-column: 1 / 5;
+        grid-row: 2 / 3;
+        position: static;
+    }
+
+    nav ul {
+        flex-flow: column nowrap;
+    }
+
+    #homehero,
+    #studenthero,
+    #facultyhero {
+        grid-column: 5 / 8;
+        grid-row: 2 / 3;
+        height: auto;
+    }
+
+    main img {
+        float: none;
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header h1 {
+        background-image: none;
+        text-align: center;
+    }
+
+    nav {
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+    }
+
+    #homehero,
+    #studenthero,
+    #facultyhero {
+        display: none;
+    }
+}
