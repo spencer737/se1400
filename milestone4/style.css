@@ -7,7 +7,6 @@
 body {
     margin: 0px 25px;
     background-attachment: fixed;
-    text-decoration-color: #FFFFFF;
     background-color: #3D3E3F;
     color: #FFFFFF;
     font-family: Verdana, Arial, sans-serif;
@@ -17,8 +16,7 @@ body {
 #wrapper {
     display: grid;
     grid-auto-rows: minmax(0px, auto);
-    grid-template-columns: minmax(0px, 0.5fr) repeat(6, minmax(0, 150px)) minmax(0px, 0.5fr);
-    max-width: 90%; /* Adjust percentage as needed */
+    grid-template-columns: minmax(0px, 0.5fr) repeat(6, minmax(0, auto)) minmax(0px, 0.5fr);
     margin: 0 auto; /* Centers the content */
 }
 
@@ -35,15 +33,12 @@ header {
 /* Header h1 modifications */
 header h1 { 
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-image: url('graffitiglow.png');
     background-position: center;
     background-repeat: no-repeat;
     align-items: center; /* Centers content horizontally */
     justify-content: center; /* Centers content vertically */
-    background-origin: content-box;
-    background-size: contain;
+    background-size: cover;
     padding-left: 1em;
     padding-right: 100px;
     margin: 0;
